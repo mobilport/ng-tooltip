@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+	<title>Angular custom tooltip</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/tooltip.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/tooltip.directive.js"></script>
+</head>
+
+<body>
+	<div id="tooltipcontent" class="popbox">
+
+	</div>
+	<p class="player-title" ng-tooltip tooltip-title="Customize me" tooltip-body="Additionally, you can add some more information if its needed." tooltip-footer="You can customize everything, or add new properties.">Hover me!</p>
+</body>
+
+</html>
